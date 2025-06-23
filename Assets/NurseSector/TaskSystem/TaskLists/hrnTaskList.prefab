@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: hrnTaskList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: Bring Water
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 1087108759224158221, guid: 5e75843198291cc43a017e9fe981531e, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 2
+    - taskName: Change Wound Dressing
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 6577831068992120607, guid: eac41be731d9ffd4186cc44b3cd61ed1, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 7998839094372328999, guid: 51d61de07d2666940bfde0db044caeae, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 2fa1be9d9d499e94dba913cbf2fac3e0, type: 3}
+        requirePreviousSteps: 0101
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 6577831068992120607, guid: eac41be731d9ffd4186cc44b3cd61ed1, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 000001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 1
+      - stepName: 
+        itemPrefab: {fileID: 7998839094372328999, guid: 51d61de07d2666940bfde0db044caeae, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 00000100
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 1
+    - taskName: Take Temperature
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 3
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 6302183285209609855, guid: e6bae8f298226b2458fa0e1fcd82b6c5, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 6
+    - taskName: Administer Medication
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 5608053265498225267, guid: d8426503eab333a4ea8f00640c6b279a, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 1087108759224158221, guid: 5e75843198291cc43a017e9fe981531e, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 0101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 2
+    - taskName: Provide Blankets
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 4755830539730971113, guid: d2e38f81f3f4b04498a73e40e09c2f18, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 2
+    - taskName: Bring Entertainment
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 4
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 3019330559037442648, guid: e3b28da7fbbfdfc48bea7f856261d526, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 2
+    - taskName: Draw Blood
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 4
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 7056680949170394015, guid: ee14d6abf0bdebf458a8f5fccea483b4, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 5591363541293341717, guid: cbed904a0b151a14a85021d587d57bb3, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 10dd391acaeff774cb4a51a89d53c2cc, type: 3}
+        requirePreviousSteps: 0101
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: 
+        itemPrefab: {fileID: 7056680949170394015, guid: ee14d6abf0bdebf458a8f5fccea483b4, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 000001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 1
+      - stepName: 
+        itemPrefab: {fileID: 5591363541293341717, guid: cbed904a0b151a14a85021d587d57bb3, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 00000100
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 1
+    - taskName: Code Blue
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 1
+    - taskName: Prepare for Surgery
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 3
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 5
+    - taskName: Epilepsy attack
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 4
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 1
+    - taskName: Stop Bleeding
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 6577831068992120607, guid: eac41be731d9ffd4186cc44b3cd61ed1, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 1
+    - taskName: Monitor Vitals
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 3
+      steps:
+      - stepName: 
+        itemPrefab: {fileID: 5764769292767050437, guid: 19315eee22e9e2b43bfd9fa949fbc1d7, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3

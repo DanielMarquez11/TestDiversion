@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: TestSceneTaskList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11536652, y: 0.95242447, z: 1.1966008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: Item to location - Simple
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 0
+      steps:
+      - itemPrefab: {fileID: 8165891074779545725, guid: 48a34b58589fff049ae7a87905e89cab, type: 3}
+        deliveryLocationPrefab: {fileID: 7909481200894197591, guid: 5e56d9ba27cb93e44a5cb1caf97a3b09, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+    - taskName: Item to Patient = Simple
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 0
+      steps:
+      - itemPrefab: {fileID: 8165891074779545725, guid: 48a34b58589fff049ae7a87905e89cab, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+    - taskName: Medication Tray - Intermediate
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 0
+      steps:
+      - itemPrefab: {fileID: 8165891074779545725, guid: 48a34b58589fff049ae7a87905e89cab, type: 3}
+        deliveryLocationPrefab: {fileID: 6927035886167071260, guid: 1c9c9a6e8cb55e64cabe6b1ff9b0b940, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+      - itemPrefab: {fileID: 8165891074779545725, guid: 48a34b58589fff049ae7a87905e89cab, type: 3}
+        deliveryLocationPrefab: {fileID: 6927035886167071260, guid: 1c9c9a6e8cb55e64cabe6b1ff9b0b940, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+      - itemPrefab: {fileID: 6927035886167071260, guid: 1c9c9a6e8cb55e64cabe6b1ff9b0b940, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 0101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+    - taskName: Pill from bottle to patient - Intermediate
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 0
+      steps:
+      - itemPrefab: {fileID: 8824406621942839231, guid: f5d84f4ae3dcb0a4cbcf16c6c4e7c23e, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+    - taskName: Item from location to location in item
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 0
+      steps:
+      - itemPrefab: {fileID: 6927035886167071260, guid: 025b60d569ac342438ba599d4476b1fa, type: 3}
+        deliveryLocationPrefab: {fileID: 6927035886167071260, guid: 1c9c9a6e8cb55e64cabe6b1ff9b0b940, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+    - taskName: No Item Interactions
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 0
+      steps:
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7909481200894197591, guid: 5e56d9ba27cb93e44a5cb1caf97a3b09, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+    - taskName: patient 3 task
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 3
+      steps:
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7909481200894197591, guid: 5e56d9ba27cb93e44a5cb1caf97a3b09, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+    - taskName: patient 4 task 1
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 4
+      steps:
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7909481200894197591, guid: 5e56d9ba27cb93e44a5cb1caf97a3b09, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+    - taskName: test patient 3 task 2
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 3
+      steps:
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7909481200894197591, guid: 5e56d9ba27cb93e44a5cb1caf97a3b09, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+    - taskName: patient 4 task 2
+      isUrgent: 0
+      weight: 0
+      preferredPatientNumber: 4
+      steps:
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7909481200894197591, guid: 5e56d9ba27cb93e44a5cb1caf97a3b09, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0

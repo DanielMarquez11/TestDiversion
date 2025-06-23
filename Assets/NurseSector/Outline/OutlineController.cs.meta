@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: df051e19c0427b348b5298976febd76d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - OutlineMaterial: {instanceID: 0}
+  - shader: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

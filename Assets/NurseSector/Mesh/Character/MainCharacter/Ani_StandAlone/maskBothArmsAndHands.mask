@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: maskBothArmsAndHands
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/root
+    m_Weight: 0
+  - m_Path: Armature/root/def.arm.upper.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.f.thumb.03.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.f.thumb.03.l/def.f.thumb.02.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.f.thumb.03.l/def.f.thumb.02.l/def.f.thumb.01.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.f.thumb.03.l/def.f.thumb.02.l/def.f.thumb.01.l/def.f.thumb.01.l_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.01.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.01.l/def.f.index.03.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.01.l/def.f.index.03.l/def.f.index.02.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.01.l/def.f.index.03.l/def.f.index.02.l/def.f.index.01.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.01.l/def.f.index.03.l/def.f.index.02.l/def.f.index.01.l/def.f.index.01.l_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.02.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.02.l/def.f.middle.03.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.02.l/def.f.middle.03.l/def.f.middle.02.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.02.l/def.f.middle.03.l/def.f.middle.02.l/def.f.middle.01.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.02.l/def.f.middle.03.l/def.f.middle.02.l/def.f.middle.01.l/def.f.middle.01.l_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.03.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.03.l/def.f.ring.03.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.03.l/def.f.ring.03.l/def.f.ring.02.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.03.l/def.f.ring.03.l/def.f.ring.02.l/def.f.ring.01.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.03.l/def.f.ring.03.l/def.f.ring.02.l/def.f.ring.01.l/def.f.ring.01.l_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.04.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.04.l/def.f.pinky.03.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.04.l/def.f.pinky.03.l/def.f.pinky.02.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.04.l/def.f.pinky.03.l/def.f.pinky.02.l/def.f.pinky.01.l
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.l/def.arm.lower.l/def.forearm.upper.l/def.forearm.lower.l/def.hand.l/def.palm.04.l/def.f.pinky.03.l/def.f.pinky.02.l/def.f.pinky.01.l/def.f.pinky.01.l_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.f.thumb.03.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.f.thumb.03.r/def.f.thumb.02.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.f.thumb.03.r/def.f.thumb.02.r/def.f.thumb.01.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.f.thumb.03.r/def.f.thumb.02.r/def.f.thumb.01.r/def.f.thumb.01.r_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.01.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.01.r/def.f.index.03.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.01.r/def.f.index.03.r/def.f.index.02.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.01.r/def.f.index.03.r/def.f.index.02.r/def.f.index.01.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.01.r/def.f.index.03.r/def.f.index.02.r/def.f.index.01.r/def.f.index.01.r_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.02.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.02.r/def.f.middle.03.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.02.r/def.f.middle.03.r/def.f.middle.02.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.02.r/def.f.middle.03.r/def.f.middle.02.r/def.f.middle.01.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.02.r/def.f.middle.03.r/def.f.middle.02.r/def.f.middle.01.r/def.f.middle.01.r_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.03.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.03.r/def.f.ring.03.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.03.r/def.f.ring.03.r/def.f.ring.02.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.03.r/def.f.ring.03.r/def.f.ring.02.r/def.f.ring.01.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.03.r/def.f.ring.03.r/def.f.ring.02.r/def.f.ring.01.r/def.f.ring.01.r_end
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.04.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.04.r/def.f.pinky.03.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.04.r/def.f.pinky.03.r/def.f.pinky.02.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.04.r/def.f.pinky.03.r/def.f.pinky.02.r/def.f.pinky.01.r
+    m_Weight: 1
+  - m_Path: Armature/root/def.arm.upper.r/def.arm.lower.r/def.forearm.upper.r/def.forearm.lower.r/def.hand.r/def.palm.04.r/def.f.pinky.03.r/def.f.pinky.02.r/def.f.pinky.01.r/def.f.pinky.01.r_end
+    m_Weight: 1
+  - m_Path: Armature/root/hand.touch.ik.l
+    m_Weight: 0
+  - m_Path: Armature/root/hand.touch.ik.l/hand.touch.ik.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/hand.touch.ik.r
+    m_Weight: 0
+  - m_Path: Armature/root/hand.touch.ik.r/hand.touch.ik.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/arm.touch.fk.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/arm.touch.fk.l/forearm.touch.fk.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/arm.touch.fk.l/forearm.touch.fk.l/hand.touch.fk.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/arm.touch.fk.l/forearm.touch.fk.l/hand.touch.fk.l/hand.touch.fk.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.arm.tracker.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.arm.tracker.l/m.arm.tracker.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/f.thumb.touch.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/f.thumb.touch.l/f.thumb.touch.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.03.l/m.f.thumb.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.03.l/m.f.thumb.02.l/m.f.thumb.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.03.l/m.f.thumb.02.l/m.f.thumb.01.l/m.f.thumb.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.auto.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.auto.03.l/f.thumb.touch.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.auto.03.l/f.thumb.touch.03.l/m.f.thumb.auto.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.auto.03.l/f.thumb.touch.03.l/m.f.thumb.auto.02.l/f.thumb.touch.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.auto.03.l/f.thumb.touch.03.l/m.f.thumb.auto.02.l/f.thumb.touch.02.l/m.f.thumb.auto.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.auto.03.l/f.thumb.touch.03.l/m.f.thumb.auto.02.l/f.thumb.touch.02.l/m.f.thumb.auto.01.l/f.thumb.touch.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.f.thumb.auto.03.l/f.thumb.touch.03.l/m.f.thumb.auto.02.l/f.thumb.touch.02.l/m.f.thumb.auto.01.l/f.thumb.touch.01.l/f.thumb.touch.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.forearm.tracker.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.forearm.tracker.l/m.forearm.tracker.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/f.index.touch.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/f.index.touch.l/f.index.touch.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.03.l/m.f.index.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.03.l/m.f.index.02.l/m.f.index.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.03.l/m.f.index.02.l/m.f.index.01.l/m.f.index.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.auto.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.auto.03.l/f.index.touch.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.auto.03.l/f.index.touch.03.l/m.f.index.auto.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.auto.03.l/f.index.touch.03.l/m.f.index.auto.02.l/f.index.touch.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.auto.03.l/f.index.touch.03.l/m.f.index.auto.02.l/f.index.touch.02.l/m.f.index.auto.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.auto.03.l/f.index.touch.03.l/m.f.index.auto.02.l/f.index.touch.02.l/m.f.index.auto.01.l/f.index.touch.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.01.l/m.f.index.auto.03.l/f.index.touch.03.l/m.f.index.auto.02.l/f.index.touch.02.l/m.f.index.auto.01.l/f.index.touch.01.l/f.index.touch.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/f.middle.touch.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/f.middle.touch.l/f.middle.touch.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.03.l/m.f.middle.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.03.l/m.f.middle.02.l/m.f.middle.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.03.l/m.f.middle.02.l/m.f.middle.01.l/m.f.middle.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.auto.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.auto.03.l/f.middle.touch.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.auto.03.l/f.middle.touch.03.l/m.f.middle.auto.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.auto.03.l/f.middle.touch.03.l/m.f.middle.auto.02.l/f.middle.touch.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.auto.03.l/f.middle.touch.03.l/m.f.middle.auto.02.l/f.middle.touch.02.l/m.f.middle.auto.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.auto.03.l/f.middle.touch.03.l/m.f.middle.auto.02.l/f.middle.touch.02.l/m.f.middle.auto.01.l/f.middle.touch.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.02.l/m.f.middle.auto.03.l/f.middle.touch.03.l/m.f.middle.auto.02.l/f.middle.touch.02.l/m.f.middle.auto.01.l/f.middle.touch.01.l/f.middle.touch.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/f.ring.touch.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/f.ring.touch.l/f.ring.touch.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.03.l/m.f.ring.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.03.l/m.f.ring.02.l/m.f.ring.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.03.l/m.f.ring.02.l/m.f.ring.01.l/m.f.ring.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.auto.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.auto.03.l/f.ring.touch.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.auto.03.l/f.ring.touch.03.l/m.f.ring.auto.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.auto.03.l/f.ring.touch.03.l/m.f.ring.auto.02.l/f.ring.touch.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.auto.03.l/f.ring.touch.03.l/m.f.ring.auto.02.l/f.ring.touch.02.l/m.f.ring.auto.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.auto.03.l/f.ring.touch.03.l/m.f.ring.auto.02.l/f.ring.touch.02.l/m.f.ring.auto.01.l/f.ring.touch.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.03.l/m.f.ring.auto.03.l/f.ring.touch.03.l/m.f.ring.auto.02.l/f.ring.touch.02.l/m.f.ring.auto.01.l/f.ring.touch.01.l/f.ring.touch.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/f.pinky.touch.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/f.pinky.touch.l/f.pinky.touch.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.03.l/m.f.pinky.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.03.l/m.f.pinky.02.l/m.f.pinky.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.03.l/m.f.pinky.02.l/m.f.pinky.01.l/m.f.pinky.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.auto.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.auto.03.l/f.pinky.touch.03.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.auto.03.l/f.pinky.touch.03.l/m.f.pinky.auto.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.auto.03.l/f.pinky.touch.03.l/m.f.pinky.auto.02.l/f.pinky.touch.02.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.auto.03.l/f.pinky.touch.03.l/m.f.pinky.auto.02.l/f.pinky.touch.02.l/m.f.pinky.auto.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.auto.03.l/f.pinky.touch.03.l/m.f.pinky.auto.02.l/f.pinky.touch.02.l/m.f.pinky.auto.01.l/f.pinky.touch.01.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/m.palm.04.l/m.f.pinky.auto.03.l/f.pinky.touch.03.l/m.f.pinky.auto.02.l/f.pinky.touch.02.l/m.f.pinky.auto.01.l/f.pinky.touch.01.l/f.pinky.touch.01.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/palm.touch.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.fk.l/m.forearm.fk.l/m.hand.fk.l/palm.touch.l/palm.touch.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.ik.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.ik.l/m.forearm.ik.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.arm.ik.l/m.forearm.ik.l/m.forearm.ik.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.elbow.touch.pole.ik.l
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.l/m.elbow.touch.pole.ik.l/m.elbow.touch.pole.ik.l_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/arm.touch.fk.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/arm.touch.fk.r/forearm.touch.fk.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/arm.touch.fk.r/forearm.touch.fk.r/hand.touch.fk.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/arm.touch.fk.r/forearm.touch.fk.r/hand.touch.fk.r/hand.touch.fk.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.arm.tracker.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.arm.tracker.r/m.arm.tracker.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/f.thumb.touch.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/f.thumb.touch.r/f.thumb.touch.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.03.r/m.f.thumb.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.03.r/m.f.thumb.02.r/m.f.thumb.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.03.r/m.f.thumb.02.r/m.f.thumb.01.r/m.f.thumb.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.auto.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.auto.03.r/f.thumb.touch.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.auto.03.r/f.thumb.touch.03.r/m.f.thumb.auto.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.auto.03.r/f.thumb.touch.03.r/m.f.thumb.auto.02.r/f.thumb.touch.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.auto.03.r/f.thumb.touch.03.r/m.f.thumb.auto.02.r/f.thumb.touch.02.r/m.f.thumb.auto.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.auto.03.r/f.thumb.touch.03.r/m.f.thumb.auto.02.r/f.thumb.touch.02.r/m.f.thumb.auto.01.r/f.thumb.touch.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.f.thumb.auto.03.r/f.thumb.touch.03.r/m.f.thumb.auto.02.r/f.thumb.touch.02.r/m.f.thumb.auto.01.r/f.thumb.touch.01.r/f.thumb.touch.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.forearm.tracker.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.forearm.tracker.r/m.forearm.tracker.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/f.index.touch.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/f.index.touch.r/f.index.touch.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.03.r/m.f.index.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.03.r/m.f.index.02.r/m.f.index.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.03.r/m.f.index.02.r/m.f.index.01.r/m.f.index.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.auto.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.auto.03.r/f.index.touch.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.auto.03.r/f.index.touch.03.r/m.f.index.auto.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.auto.03.r/f.index.touch.03.r/m.f.index.auto.02.r/f.index.touch.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.auto.03.r/f.index.touch.03.r/m.f.index.auto.02.r/f.index.touch.02.r/m.f.index.auto.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.auto.03.r/f.index.touch.03.r/m.f.index.auto.02.r/f.index.touch.02.r/m.f.index.auto.01.r/f.index.touch.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.01.r/m.f.index.auto.03.r/f.index.touch.03.r/m.f.index.auto.02.r/f.index.touch.02.r/m.f.index.auto.01.r/f.index.touch.01.r/f.index.touch.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/f.middle.touch.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/f.middle.touch.r/f.middle.touch.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.03.r/m.f.middle.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.03.r/m.f.middle.02.r/m.f.middle.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.03.r/m.f.middle.02.r/m.f.middle.01.r/m.f.middle.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.auto.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.auto.03.r/f.middle.touch.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.auto.03.r/f.middle.touch.03.r/m.f.middle.auto.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.auto.03.r/f.middle.touch.03.r/m.f.middle.auto.02.r/f.middle.touch.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.auto.03.r/f.middle.touch.03.r/m.f.middle.auto.02.r/f.middle.touch.02.r/m.f.middle.auto.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.auto.03.r/f.middle.touch.03.r/m.f.middle.auto.02.r/f.middle.touch.02.r/m.f.middle.auto.01.r/f.middle.touch.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.02.r/m.f.middle.auto.03.r/f.middle.touch.03.r/m.f.middle.auto.02.r/f.middle.touch.02.r/m.f.middle.auto.01.r/f.middle.touch.01.r/f.middle.touch.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/f.ring.touch.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/f.ring.touch.r/f.ring.touch.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.03.r/m.f.ring.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.03.r/m.f.ring.02.r/m.f.ring.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.03.r/m.f.ring.02.r/m.f.ring.01.r/m.f.ring.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.auto.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.auto.03.r/f.ring.touch.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.auto.03.r/f.ring.touch.03.r/m.f.ring.auto.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.auto.03.r/f.ring.touch.03.r/m.f.ring.auto.02.r/f.ring.touch.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.auto.03.r/f.ring.touch.03.r/m.f.ring.auto.02.r/f.ring.touch.02.r/m.f.ring.auto.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.auto.03.r/f.ring.touch.03.r/m.f.ring.auto.02.r/f.ring.touch.02.r/m.f.ring.auto.01.r/f.ring.touch.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.03.r/m.f.ring.auto.03.r/f.ring.touch.03.r/m.f.ring.auto.02.r/f.ring.touch.02.r/m.f.ring.auto.01.r/f.ring.touch.01.r/f.ring.touch.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/f.pinky.touch.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/f.pinky.touch.r/f.pinky.touch.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.03.r/m.f.pinky.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.03.r/m.f.pinky.02.r/m.f.pinky.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.03.r/m.f.pinky.02.r/m.f.pinky.01.r/m.f.pinky.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.auto.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.auto.03.r/f.pinky.touch.03.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.auto.03.r/f.pinky.touch.03.r/m.f.pinky.auto.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.auto.03.r/f.pinky.touch.03.r/m.f.pinky.auto.02.r/f.pinky.touch.02.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.auto.03.r/f.pinky.touch.03.r/m.f.pinky.auto.02.r/f.pinky.touch.02.r/m.f.pinky.auto.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.auto.03.r/f.pinky.touch.03.r/m.f.pinky.auto.02.r/f.pinky.touch.02.r/m.f.pinky.auto.01.r/f.pinky.touch.01.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/m.palm.04.r/m.f.pinky.auto.03.r/f.pinky.touch.03.r/m.f.pinky.auto.02.r/f.pinky.touch.02.r/m.f.pinky.auto.01.r/f.pinky.touch.01.r/f.pinky.touch.01.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/palm.touch.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.fk.r/m.forearm.fk.r/m.hand.fk.r/palm.touch.r/palm.touch.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.ik.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.ik.r/m.forearm.ik.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.arm.ik.r/m.forearm.ik.r/m.forearm.ik.r_end
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.elbow.touch.pole.ik.r
+    m_Weight: 0
+  - m_Path: Armature/root/m.arm.socket.r/m.elbow.touch.pole.ik.r/m.elbow.touch.pole.ik.r_end
+    m_Weight: 0
+  - m_Path: Arms
+    m_Weight: 0

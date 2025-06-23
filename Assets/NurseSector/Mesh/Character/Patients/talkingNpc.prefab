@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7107089548690574257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946384566150258125, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759758826298148727, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_Name
+      value: talkingNpc
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759758826298148727, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5759758826298148727, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2118033949199811107}
+    - targetCorrespondingSourceObject: {fileID: 5759758826298148727, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1221044677828458994}
+    - targetCorrespondingSourceObject: {fileID: 5759758826298148727, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3834867212068873951}
+  m_SourcePrefab: {fileID: 100100000, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+--- !u!1 &3265024418673052870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5759758826298148727, guid: 64b3d11886743444cbdec6c14e0b4e27, type: 3}
+  m_PrefabInstance: {fileID: 7107089548690574257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2118033949199811107
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265024418673052870}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.25
+  m_Height: 1.75
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.875, z: 0}
+--- !u!114 &1221044677828458994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265024418673052870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f93375fc51bff241975ceee231609ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Dr. X
+--- !u!114 &3834867212068873951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265024418673052870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94e5fd5afee85d49b54f831fc9c24b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText:
+  - Hello Nurse!
+  - Go help your patients!
+  - Did you forget the code for the medicine cabinet lock again? I think it was...
+    1234.
+  - Get to work!
+  freeTalk: 1

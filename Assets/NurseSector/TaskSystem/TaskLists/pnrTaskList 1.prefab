@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: pnrTaskList 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: Play with patient
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 415365542440628750, guid: 51aa662ca1d4e3e41a2ceb9fa9985772, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Administer vaccine
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 2802400841921953047, guid: 891399c1b77439541b52457c1e94eeb2, type: 3}
+        deliveryLocationPrefab: {fileID: 8592712015793119483, guid: 7a5d087eec2ff364c9eb794f7121a916, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 5602829965032524320, guid: 0a075e3e316808c4b83147d1befa9eac, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 4702512388928373388, guid: c315c46f307f8014ab408605af3df70f, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        requirePreviousSteps: 0000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 5460838227964741994, guid: 65f5b1f9b73e119448e2a4fb98a54cb1, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 2fa1be9d9d499e94dba913cbf2fac3e0, type: 3}
+        requirePreviousSteps: 000101
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 5602829965032524320, guid: 0a075e3e316808c4b83147d1befa9eac, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 1ffc60e3466752b4786408996e2c4d27, type: 3}
+        requirePreviousSteps: 00000001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 1
+      - itemPrefab: {fileID: 4702512388928373388, guid: c315c46f307f8014ab408605af3df70f, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 1ffc60e3466752b4786408996e2c4d27, type: 3}
+        requirePreviousSteps: 0000000101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 1
+        playerArmAnim: 0
+    - taskName: Respond to allergic reaction
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 1199199502799642415, guid: 3a409c6a3d3fafc45ab34461f9599a9c, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Gather medical history
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 3974069613916262341, guid: 36362f687187b9b408c1899565458a9f, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Explain treatment plan
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 2187373839065355470, guid: b83a685648dcab54483c253295e716c9, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Calm anxious parent
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 1087108759224158221, guid: 5e75843198291cc43a017e9fe981531e, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2

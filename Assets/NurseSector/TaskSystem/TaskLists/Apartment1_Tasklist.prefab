@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: Apartment1_Tasklist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: 'Restore pipe connection '
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: Place the missing pipe in CV-Ketel
+        itemPrefab: {fileID: 8632424829081745549, guid: 44d5271630a112d47a8652bef8d5fbed, type: 3}
+        deliveryLocationPrefab: {fileID: 45084933380360166, guid: 1cf347b74dde4cb4bad5118a610934dd, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+    - taskName: Install radiator
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - stepName: Spawn the radiator from tablet
+        itemPrefab: {fileID: 5110566315685138033, guid: 7f9f888efb54611408d175d4e4dabe94, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Turn on the valve
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 6330455100553556271, guid: 80ded789074e2054d87452ff8637cc13, type: 3}
+        requirePreviousSteps: 01
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Open lockshield valve with radiator key
+        itemPrefab: {fileID: 8238191427663190287, guid: bd5672080090542418e41a01ca1ac495, type: 3}
+        deliveryLocationPrefab: {fileID: 522629283498208144, guid: 457b5d4db830ed7449243c076533b5a8, type: 3}
+        requirePreviousSteps: 0001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Check heat distribution with infrared camera
+        itemPrefab: {fileID: 5837937151713003737, guid: 6685c14f7b0191b44969caa696fc8820, type: 3}
+        deliveryLocationPrefab: {fileID: 5753154497525331265, guid: 0a09ae0b098960e46959d8f2fba6c601, type: 3}
+        requirePreviousSteps: 000001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 6
+    - taskName: Callibration thermostat
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 3
+      steps:
+      - stepName: Compare readings thermostat and thermometer
+        itemPrefab: {fileID: 2649928691890842877, guid: 3006c00b6f7cbb040948e08e321f59d3, type: 3}
+        deliveryLocationPrefab: {fileID: 105002352035721019, guid: 0e17e5a8da4323f42868c09e124059c9, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Press + Button
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7246384144025218332, guid: b0c9a01f850d9434d8b07d27c3b5d7a0, type: 3}
+        requirePreviousSteps: 01
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Press + Button
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7246384144025218332, guid: b0c9a01f850d9434d8b07d27c3b5d7a0, type: 3}
+        requirePreviousSteps: 0100
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Press + Button
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 7246384144025218332, guid: b0c9a01f850d9434d8b07d27c3b5d7a0, type: 3}
+        requirePreviousSteps: 010000
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Press - Button
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 1542876024020760760, guid: cf65747b28cb1ba42baa20cb73c40f11, type: 3}
+        requirePreviousSteps: 00010101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Press - Button
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 1542876024020760760, guid: cf65747b28cb1ba42baa20cb73c40f11, type: 3}
+        requirePreviousSteps: 0001010100
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Read the temperature in thermostat screen
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 105002352035721019, guid: 0e17e5a8da4323f42868c09e124059c9, type: 3}
+        requirePreviousSteps: 000000000101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+    - taskName: Check pressure gauge
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: Check the gauge pressure
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 1527238764771723451, guid: 5e01fa75fac7cc74a96a305ff6f77959, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 0

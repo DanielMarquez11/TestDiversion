@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: Apartment2_Tasklist 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: Install and test circuit breaker
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: Open the fuse box door
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 4768966686053616011, guid: 07e35b6d48fcdf042b5ac9e07f758b0e, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 7
+      - stepName: Test power wires with voltage meter
+        itemPrefab: {fileID: 3774721921233928719, guid: 27ae0c5dd6d01f04a8e0291bb5d64320, type: 3}
+        deliveryLocationPrefab: {fileID: 7433103114659666374, guid: 345966557d2492241a79a0dbff889fe9, type: 3}
+        requirePreviousSteps: 01
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 6
+      - stepName: Install fuse with screwdriver in fuse box
+        itemPrefab: {fileID: 3895132625751685335, guid: 10c28263a3fd51147b5c38936de4f690, type: 3}
+        deliveryLocationPrefab: {fileID: 7350220044263446219, guid: a32e4eea4745e2540a960afde4a934df, type: 3}
+        requirePreviousSteps: 0101
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 4739898866066389995, guid: df23ffa7866c074419abb0182dc8588d, type: 3}
+        playerArmAnim: 7
+      - stepName: Turn on switch A
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 4739898866066389995, guid: df23ffa7866c074419abb0182dc8588d, type: 3}
+        requirePreviousSteps: 010001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 7
+      - stepName: Use multimeter to test fuse function
+        itemPrefab: {fileID: 5936416566489694369, guid: c6b2a25d78e2fd042b2660f169764b19, type: 3}
+        deliveryLocationPrefab: {fileID: 1779768710316346712, guid: 8e849ca65c58a6d4c949fa4b7d624b58, type: 3}
+        requirePreviousSteps: 01000101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 6
+    - taskName: Fix and test underfloor heating
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - stepName: Place pipe B into spiral Slot B
+        itemPrefab: {fileID: 6450599193912410722, guid: 6bf2a18615dfae64eaf5e9e5101ea533, type: 3}
+        deliveryLocationPrefab: {fileID: 7659942217099899629, guid: e6b994dee7082854c9da153c083aed0c, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Place pipe C into spiral Slot C
+        itemPrefab: {fileID: 4952900434671127554, guid: 2fe4442a3a30e734da5c5feb0bb29d99, type: 3}
+        deliveryLocationPrefab: {fileID: 825693887091807988, guid: 3b3fd101d98332e4e8a7520027953501, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Place pipe D into spiral Slot D
+        itemPrefab: {fileID: 869765704176939298, guid: e6d0bb378f333864ca66867fafa038ac, type: 3}
+        deliveryLocationPrefab: {fileID: 4888420902285521962, guid: dd238e1a7d40d26488f35624701a1d19, type: 3}
+        requirePreviousSteps: 0000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Turn on switch B in meterkast
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 4739898866066389995, guid: f140ed233e90ddc4891dc336470ed031, type: 3}
+        requirePreviousSteps: 000001
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Check floor temperature
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 198374464917709617, guid: 48437f8cc429c3342bb0a40166ba5429, type: 3}
+        requirePreviousSteps: 00000101
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Place missing floor plank A
+        itemPrefab: {fileID: 8436729252383793453, guid: e14db64e599daa241851bee3af0b1dd9, type: 3}
+        deliveryLocationPrefab: {fileID: 8123235292362448449, guid: 44bedeb350e2cc94f887d64aaba0115b, type: 3}
+        requirePreviousSteps: 0000010001
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Place missing floor plank B
+        itemPrefab: {fileID: 2543303122345087787, guid: 36ac7551681faeb4094367d4896fef8c, type: 3}
+        deliveryLocationPrefab: {fileID: 4756816344690641920, guid: 9648f74d8df0af94ab305a1d3540db09, type: 3}
+        requirePreviousSteps: 000001000100
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Place missing floor plank C
+        itemPrefab: {fileID: 4591027195382300890, guid: 46f278bdbd2139949a0621afa15cea58, type: 3}
+        deliveryLocationPrefab: {fileID: 9193239339974439523, guid: bc125348c313fd24a8f590c267fe9b95, type: 3}
+        requirePreviousSteps: 00000100010000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Place missing floor plank D
+        itemPrefab: {fileID: 19963264962152325, guid: 6c472cffa11b34841839539902143f33, type: 3}
+        deliveryLocationPrefab: {fileID: 5631685092665971891, guid: aef21dfe290ad524494d470078b4555b, type: 3}
+        requirePreviousSteps: 0000010001000000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0
+      - stepName: Place missing floor plank E
+        itemPrefab: {fileID: 1732798755964212779, guid: 864e9b8dfc1c6cf4e8be1f46831fe57e, type: 3}
+        deliveryLocationPrefab: {fileID: 5097634180743231819, guid: 7dc840bc5dacb2a4eb9e9e2ccaa33c3d, type: 3}
+        requirePreviousSteps: 000001000100000000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 0

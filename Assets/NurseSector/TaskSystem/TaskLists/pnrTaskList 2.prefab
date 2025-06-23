@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: pnrTaskList 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: 'Provide blanket '
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 4755830539730971113, guid: d2e38f81f3f4b04498a73e40e09c2f18, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Adress poisoning case
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 88ac6b16b2730bb419984108715547d5, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 0
+      - itemPrefab: {fileID: 1257475769358734489, guid: ed51213d82bd7d449b9833385e992682, type: 3}
+        deliveryLocationPrefab: {fileID: 4982094133871087760, guid: 8172a9b87bc0a3841aa396670a052486, type: 3}
+        requirePreviousSteps: 01
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 7896592823480952471, guid: fa3816b0794182a41a37d37f8f646fee, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 88ac6b16b2730bb419984108715547d5, type: 3}
+        requirePreviousSteps: 0001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+      - itemPrefab: {fileID: 6624929964026402143, guid: 2801edec0537d1142bad9a00a77833a6, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 000001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Manage high fever
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 6302183285209609855, guid: e6bae8f298226b2458fa0e1fcd82b6c5, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: ed14bb60f12f922439bc39bc3e78abad, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 1
+        playerArmAnim: 6
+      - itemPrefab: {fileID: 6302183285209609855, guid: e6bae8f298226b2458fa0e1fcd82b6c5, type: 3}
+        deliveryLocationPrefab: {fileID: 4982094133871087760, guid: 8172a9b87bc0a3841aa396670a052486, type: 3}
+        requirePreviousSteps: 01
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 88ac6b16b2730bb419984108715547d5, type: 3}
+        requirePreviousSteps: 0100
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 0
+      - itemPrefab: {fileID: 4979844503393564312, guid: 8615ddd985fa67d40a25be4a7c68795e, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 9c05ecea5de946647b79ef2e93237745, type: 3}
+        requirePreviousSteps: 010000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 1087108759224158221, guid: 5e75843198291cc43a017e9fe981531e, type: 3}
+        deliveryLocationPrefab: {fileID: 5460838227964741994, guid: 9c05ecea5de946647b79ef2e93237745, type: 3}
+        requirePreviousSteps: 01000000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 5460838227964741994, guid: 9c05ecea5de946647b79ef2e93237745, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 0100000101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 3
+    - taskName: Reassure the parent
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 0
+    - taskName: Explain treatment plan
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 2187373839065355470, guid: b83a685648dcab54483c253295e716c9, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Adress parental panic
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 1087108759224158221, guid: b4b232a36d3e9a8418338463567e023f, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2

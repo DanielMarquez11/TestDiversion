@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: TutorialLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: Decorate coffee table
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: Place succulent on coffee table
+        itemPrefab: {fileID: 5051762328821423774, guid: cab3c018b51ab424892d5c6a8a0a1ea3, type: 3}
+        deliveryLocationPrefab: {fileID: 522629283498208144, guid: 0fa6d208082563f4d843dcd0b7dc4dc4, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+    - taskName: Clean up office area
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: Clean the desks from debries
+        itemPrefab: {fileID: 4578382488670237341, guid: 7a8491a9672e7ec4dbea4445b1df70c2, type: 3}
+        deliveryLocationPrefab: {fileID: 8592712015793119483, guid: 7a5d087eec2ff364c9eb794f7121a916, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 1
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+    - taskName: Make a coffee for the boss
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - stepName: Open kitchen cabinet door
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 2525630121352060944, guid: 2bbfd6da60f89c84895f5f0ff911200a, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 3
+      - stepName: Place mug in coffee machine
+        itemPrefab: {fileID: 2756568980552465175, guid: 8d6bd91f6db9b5e4f8aaf0e6fa2e75d3, type: 3}
+        deliveryLocationPrefab: {fileID: 522629283498208144, guid: c27c9e636d8c6b345a23a0c9ab33acc5, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        swapObject: {fileID: 3742249159709657481, guid: dd06603e9aa4c3d4e9449e5d3002efcd, type: 3}
+        playerArmAnim: 3
+      - stepName: Close Kitchen cabinet
+        itemPrefab: {fileID: 0}
+        deliveryLocationPrefab: {fileID: 2525630121352060944, guid: 2bbfd6da60f89c84895f5f0ff911200a, type: 3}
+        requirePreviousSteps: 0101
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 7
+      - stepName: Bring coffee to the receptionist
+        itemPrefab: {fileID: 3742249159709657481, guid: dd06603e9aa4c3d4e9449e5d3002efcd, type: 3}
+        deliveryLocationPrefab: {fileID: 9108124037090887743, guid: 6f3fea5cda8528b44b6003de4844904e, type: 3}
+        requirePreviousSteps: 000001
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        swapObject: {fileID: 0}
+        playerArmAnim: 2

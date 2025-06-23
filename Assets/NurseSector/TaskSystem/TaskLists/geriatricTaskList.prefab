@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194503625482772967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449911030835984913}
+  - component: {fileID: 433172105066672258}
+  m_Layer: 0
+  m_Name: geriatricTaskList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449911030835984913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433172105066672258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194503625482772967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bb7c3b3faa2d64e8fca8440a080788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskList:
+    tasks:
+    - taskName: Bring clean clothes
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 4755830539730971113, guid: d2e38f81f3f4b04498a73e40e09c2f18, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Bring cup of water
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 3
+      steps:
+      - itemPrefab: {fileID: 1087108759224158221, guid: 5e75843198291cc43a017e9fe981531e, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Bring blanket for comfort
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 4455621699419009322, guid: 841f1699d07e58846a51e05f7c018216, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Provide meal for patient
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 6741925743287303584, guid: 8e1cfe83c519f714295d4d575b0e43bd, type: 3}
+        deliveryLocationPrefab: {fileID: 4759807911080951658, guid: 4fc194ac7fdaffd4c8d4acd192966fa1, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 0
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 6741925743287303584, guid: 8e1cfe83c519f714295d4d575b0e43bd, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 01
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Treat bedsores
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 3
+      steps:
+      - itemPrefab: {fileID: 4702512388928373388, guid: 3308b9dcae1ce1142b2fc4e734b565c1, type: 3}
+        deliveryLocationPrefab: {fileID: 8592712015793119483, guid: 7a5d087eec2ff364c9eb794f7121a916, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 7998839094372328999, guid: 51d61de07d2666940bfde0db044caeae, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 01
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 1
+      - itemPrefab: {fileID: 6153594292768512266, guid: e4263906e0240444488a10a170ab08a0, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 0001
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+    - taskName: Prepare elderly activity
+      isUrgent: 0
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 3320113747577630761, guid: dd744ea3fe5a55e4abf82b045be30096, type: 3}
+        deliveryLocationPrefab: {fileID: 3320113747577630761, guid: b666b9fbfb9079243be4004e3076e073, type: 3}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 3320113747577630761, guid: 850196cce27da0c46b9280e778563c91, type: 3}
+        deliveryLocationPrefab: {fileID: 3320113747577630761, guid: b666b9fbfb9079243be4004e3076e073, type: 3}
+        requirePreviousSteps: 00
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 2756568980552465175, guid: 8d6bd91f6db9b5e4f8aaf0e6fa2e75d3, type: 3}
+        deliveryLocationPrefab: {fileID: 6259040588275568083, guid: c6d011a7a366089448023238566adcbb, type: 3}
+        requirePreviousSteps: 0000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 2756568980552465175, guid: dd5fb1289b96a5042a057bcc04115f4a, type: 3}
+        deliveryLocationPrefab: {fileID: 6259040588275568083, guid: c6d011a7a366089448023238566adcbb, type: 3}
+        requirePreviousSteps: 000000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 2277701192505181116, guid: 8516be7bc41a12a4798de3239a8e735d, type: 3}
+        deliveryLocationPrefab: {fileID: 6259040588275568083, guid: 9ea8888d83efb604fbadcb170bb6b2c3, type: 3}
+        requirePreviousSteps: 00000000
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 2277701192505181116, guid: b3d57feab27dc924b9b033032db42aab, type: 3}
+        deliveryLocationPrefab: {fileID: 6259040588275568083, guid: 9ea8888d83efb604fbadcb170bb6b2c3, type: 3}
+        requirePreviousSteps: 0000000001
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+      - itemPrefab: {fileID: 819498849108489234, guid: 9e4ae297227129941a0c68da6ff33cf9, type: 3}
+        deliveryLocationPrefab: {fileID: 6259040588275568083, guid: 9ea8888d83efb604fbadcb170bb6b2c3, type: 3}
+        requirePreviousSteps: 000000000001
+        placeItemInDeliverySlot: 1
+        lockInSlot: 1
+        consumeItem: 0
+        removeDelivery: 0
+        playerArmAnim: 3
+    - taskName: Low blood pressure
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 2
+      steps:
+      - itemPrefab: {fileID: 1199199502799642415, guid: 3a409c6a3d3fafc45ab34461f9599a9c, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 2
+    - taskName: Respond to a patient fall
+      isUrgent: 1
+      weight: 0
+      preferredTaskHostNumber: 1
+      steps:
+      - itemPrefab: {fileID: 3158281558643411166, guid: 5374e31f9a8fed647a35dd71f4a8edd6, type: 3}
+        deliveryLocationPrefab: {fileID: 0}
+        requirePreviousSteps: 
+        placeItemInDeliverySlot: 0
+        lockInSlot: 0
+        consumeItem: 1
+        removeDelivery: 0
+        playerArmAnim: 1
